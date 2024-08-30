@@ -1,4 +1,6 @@
 import { Container, Filters } from "@/components/shared";
+import { ProductCart } from "@/components/shared/product-cart";
+import { ProductGroupList } from "@/components/shared/product-group-list";
 import { Title } from "@/components/shared/title";
 import { TopBar } from "@/components/shared/top-bar";
 
@@ -20,9 +22,53 @@ export default function Home() {
           {/* Список товаров */}
           <div className="flex-1">
             <div className="flex flex-col "gap-16>
-              Список товаров
-              {/* Prod */}
-              {/* Prod */}
+              <ProductGroupList
+                title=""
+                items={[{
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 1,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                }
+                ]}
+                categoryId={1}
+              />
             </div>
           </div>
         </div>
