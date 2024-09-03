@@ -14,7 +14,7 @@ export default function Home() {
       <TopBar/>
 
       <Container className='mt-10 pb-14'>
-        <div className="flex gap-[60px]">
+        <div className="flex gap-[80px]">
           {/* Фильтрация */}
           <div className="w-[250px]">
             <Filters/>
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex-1">
             <div className="flex flex-col "gap-16>
               <ProductGroupList
-                title=""
+                title="Пиццы"
                 items={[{
                   id: 1,
                   name: 'Чизбургер-пицца',
@@ -32,6 +32,47 @@ export default function Home() {
                   items: [{price: 550}]
                 },
                 {
+                  id: 2,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 3,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 4,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 5,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 6,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                }
+                ]}
+                categoryId={0}
+              />
+
+              <ProductGroupList
+                title="Комбо"
+                items={[{
                   id: 1,
                   name: 'Чизбургер-пицца',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
@@ -39,28 +80,35 @@ export default function Home() {
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 2,
                   name: 'Чизбургер-пицца',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
                   price: 550,
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 3,
                   name: 'Чизбургер-пицца',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
                   price: 550,
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 4,
                   name: 'Чизбургер-пицца',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
                   price: 550,
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 5,
+                  name: 'Чизбургер-пицца',
+                  imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
+                  price: 550,
+                  items: [{price: 550}]
+                },
+                {
+                  id: 6,
                   name: 'Чизбургер-пицца',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EF38570B8F74A3A71E200F82DCAEB8.avif',
                   price: 550,
